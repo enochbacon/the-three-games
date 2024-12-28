@@ -1,0 +1,75 @@
+body{
+    background-color: aliceblue;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+@media screen and (max-width: 768px){
+    .hello{
+        max-width: 350px;
+    } 
+}
+@media screen and (min-width: 768px) {
+    .hello {
+        max-width: 900px;
+        height: 400px;
+        display: flex;
+    }
+}
+.elprimo img{
+    width: 105px;
+    height: 100px;
+}
+.elluchador img{
+    width: 105px;
+    height: 100px;
+}
+.elmarchiado img{
+    width: 105px;
+    height: 100px;
+}
+.elprimo{
+    background-color:  hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+
+}
+.elluchador{
+    background-color:hsl(184, 100%, 22%) ;
+    padding: 10px;
+}
+.elmarchiado{
+    background-color: hsl(179, 100%, 13%);
+    padding: 10px;
+}
+.elprimo button{
+    background-color:white;
+    color: hsl(31, 77%, 52%);
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+.elluchador button{
+    background-color:white;
+    color: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    margin-bottom: 15px;
+
+}
+.elmarchiado button{
+    background-color:white;
+    color: hsl(179, 100%, 13%);
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+p{
+    font-size: clamp( .5rem, 3vw, 1rem)
+    }
